@@ -363,7 +363,7 @@ function DemoWork()
         [demoObjectsRight, success_r] = initializeObjects(cfg, cfg.areas.conditions(2).rightRect);
         
         if ~success_l || ~success_r
-            error('Konnte Demo-Objekte nicht platzieren.');
+            error('ERROR');
         end
         
         targetIndices = [1, 2, 5, 6];
